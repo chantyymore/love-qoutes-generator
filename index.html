@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Love Qoutes Generator</title>
 </head>
 <body>
@@ -16,10 +17,11 @@
         <main>
             <form id="qoute-generator-form">
                 <input 
-                type="text" placeholder="Enter the topic of the type of the love qoute..." 
+                type="text" placeholder="Enter category of your love qoute (e.g happy)..." 
                 autofocus required
                 autocomplete="off"
-                class="instruction"/>
+                class="instruction"
+                id="user-instruction"/>
                 <input type="submit" class="submit-button" value="Generate"/>
             </form>
             <div class="qoute" id="qoute"></div>
