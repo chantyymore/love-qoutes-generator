@@ -1,0 +1,89 @@
+body{
+    background: #FFF2EB;
+    
+}
+h1{
+    color: #FF6363;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.5;
+    font-family: "Edu QLD Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    
+}
+header{
+    margin-bottom: 20px;
+}
+main{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.container{
+    margin: 120px auto;
+    max-width: 600px;
+    padding:30px;
+}
+form{
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+.instruction{
+    padding: 10px;
+    width: 80%;
+    border-radius: 50px;
+    border: 1px solid #FF6363 ;
+    font-size: 14px;
+    line-height: 20px;
+}
+.instruction:focus {
+    border: 1px solid #FF6363;  
+    outline: none;
+    box-shadow: none;
+    transition: all 150ms ease-in-out;
+}
+.instruction:hover {
+    border: 3px solid #FF6363;  /* Force same border on focus */
+    outline: none;
+    box-shadow: none;
+}
+.submit-button{
+    margin-left: 5px;
+    background:  #FFF2EB;
+    color:#FF6363;
+    border-radius: 50px;
+    border: 1px solid #FF6363 ;
+    padding: 10px 14px;
+    font-size: 14px;
+}
+.submit-button:hover{
+    background: #FF6363;
+    color:#FFF2EB;
+    cursor:pointer;
+}
+.qoute{
+    font-size: 16px;
+    background-color: white;
+    color: #FF6363;
+    font-weight: 600;
+    padding:20px;
+    line-height: 2;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+    border-left: 3px solid #FF6363 ; ;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
+a{
+    color: #FF6363;
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+}
