@@ -16,6 +16,10 @@ function generateQoute(event){
     let prompt=`please generate a love qoute about ${instructionInput.value}`;
     let context="Please make it sweet and short, maximus 4 lines, make a caption written SheCodes AI and it must have html strong element and at the bottom";
     let apiURL =`https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+    
+    let qouteElement = document.querySelector("#qoute");
+    qouteElement.classList.remove("hidden");
+    qouteElement.innerHTML =`<div class="generating">⌛Generating a qoute about <strong>${instructionInput.value}</strong>...</div>`;
     console.log("generating poem...");
     //make a call to the API
     axios.get(apiURL).then(displayQoute);

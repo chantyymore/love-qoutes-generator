@@ -15,16 +15,19 @@
             <h1>AI love qoutes generator</h1>
         </header>
         <main>
-            <form id="qoute-generator-form">
-                <input 
-                type="text" placeholder="Enter category of your love qoute (e.g happy)..." 
-                autofocus required
-                autocomplete="off"
-                class="instruction"
-                id="user-instruction"/>
-                <input type="submit" class="submit-button" value="Generate"/>
-            </form>
-            <div class="qoute" id="qoute"></div>
+            <div class="form-container">
+                <form id="qoute-generator-form">
+                    <input 
+                    type="text" placeholder="Enter category of your love qoute..." 
+                    autofocus required
+                    autocomplete="off"
+                    class="instruction"
+                    id="user-instruction"/>
+                    <input type="submit" class="submit-button" value="Generate"/>
+                </form>
+                <small> i.e happiness,heartbreak,peace </small>
+                </div>
+            <div class="qoute hidden" id="qoute"></div>
         </main>
         <footer>
             Coded by <a href="https://github.com/chantyymore" target="_blank">Keamogetswe Moeketsi</a>, open-sourced on <a href="https://github.com/chantyymore/love-qoutes-generator" target="_blank">Github</a> and hosted on <a href="" target="_blank">Netlify</a>.
