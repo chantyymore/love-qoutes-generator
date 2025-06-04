@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Love Qoutes Generator</title>
 </head>
 <body>
@@ -13,15 +14,15 @@
             <h1>AI love qoutes generator</h1>
         </header>
         <main>
-            <form>
+            <form id="qoute-generator-form">
                 <input 
                 type="text" placeholder="Enter the topic of the type of the love qoute..." 
                 autofocus required
                 autocomplete="off"
                 class="instruction"/>
-                <input type="submit" class="submit-button"/>
+                <input type="submit" class="submit-button" value="Generate"/>
             </form>
-            <div class="qoute">The qoute will be here</div>
+            <div class="qoute" id="qoute"></div>
         </main>
         <footer>
             Coded by <a href="https://github.com/chantyymore" target="_blank">Keamogetswe Moeketsi</a>, open-sourced on <a href="https://github.com/chantyymore/love-qoutes-generator" target="_blank">Github</a> and hosted on <a href="" target="_blank">Netlify</a>.
